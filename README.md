@@ -1,13 +1,10 @@
 # This repository is for have a container for MySQL5.7 + PHP56 + adminer.php
+# ./run-docker-composer.sh
 
 > This environment was adapted to make a fast PoCs on PHP!!! 
-
 > Edit the Dockerfile to change the initial database and passwords.
-
 > NOTE: the adminer location must have the real IP if are using Vagrant of docker in the local. 
-
 ==================================
-
 PHPDocker.io generated environment
 ==================================
 
