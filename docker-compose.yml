@@ -8,15 +8,13 @@ services:
       image: mysql:5.7
       container_name: php56-mysql
       working_dir: /application
-      volumes:
-        - .:/application
       environment:
         - MYSQL_ROOT_PASSWORD=123
         - MYSQL_DATABASE=test
-        - MYSQL_USER=test
-        - MYSQL_PASSWORD=123
       ports:
-        - "1027:3306"
+        - "3306:3306"
+      volumes:
+        - ./phpdocker/mysql-data:/var/lib/mysql
 
     webserver:
       image: nginx:alpine
