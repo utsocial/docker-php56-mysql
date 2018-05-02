@@ -15,6 +15,7 @@ services:
         - "3306:3306"
       volumes:
         - ./phpdocker/mysql-data:/var/lib/mysql
+        - ./phpdocker/mysql-config:/etc/mysql/conf.d
 
     webserver:
       image: nginx:alpine
