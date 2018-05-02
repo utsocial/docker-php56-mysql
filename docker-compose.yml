@@ -9,7 +9,7 @@ services:
       container_name: php56-mysql
       working_dir: /application
       environment:
-        - MYSQL_ROOT_PASSWORD=123
+        - MYSQL_ROOT_PASSWORD=root
         - MYSQL_DATABASE=test
       ports:
         - "3306:3306"
