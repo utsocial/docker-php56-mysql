@@ -8,6 +8,7 @@
 > NOTE: the adminer location must have the real IP if are using Vagrant of docker in the local. 
 
 ==================================
+
 PHPDocker.io generated environment
 ==================================
 
