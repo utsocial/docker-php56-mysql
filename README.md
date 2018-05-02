@@ -1,5 +1,5 @@
-# This repository is for have a container for MySQL5.7 + PHP56 + adminer.php
-# ./run-docker-composer.sh
+# This repository is for have a container for MySQL5.7 + PHP56 + nginx + adminer.php
+### ./run-docker-composer.sh
 
 > This environment was adapted to make a fast PoCs on PHP!!! 
 
